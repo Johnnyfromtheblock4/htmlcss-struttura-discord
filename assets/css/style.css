@@ -49,6 +49,13 @@ header {
   height: 400px;
 }
 
+.main-container-green {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  height: 800px;
+}
+
 
 /* LAYOUT */
 .col-20 {
@@ -72,6 +79,13 @@ header {
   border: 2px dashed black;
 }
 
+.col-100 {
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  border: 2px dashed black;
+}
+
 
 /* COLORI */
 .bg-yellow {
@@ -88,4 +102,8 @@ header {
 
 .bg-rose {
   background-color: pink;
+}
+
+.bg-green {
+  background-color: green;
 }
