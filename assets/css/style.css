@@ -25,6 +25,10 @@ header {
   background-color: gray;
 }
 
+.middle.bg-black {
+  padding: 20px;
+  background-color: black;
+}
 
 /* CONTENITORI */
 .container {
@@ -52,9 +56,10 @@ header {
 .main-container-green {
   max-width: 1200px;
   margin: 0 auto;
-  display: flex;
   height: 800px;
+  display: flex;
 }
+
 
 
 /* LAYOUT */
@@ -86,6 +91,13 @@ header {
   border: 2px dashed black;
 }
 
+.col-15 {
+  width: 15%;
+  padding: 20px;
+  text-align: center;
+  border: 2px dashed white;
+}
+
 
 /* COLORI */
 .bg-yellow {
@@ -106,4 +118,12 @@ header {
 
 .bg-green {
   background-color: green;
+}
+
+.bg-salmon {
+  background-color: salmon;
+}
+
+.bg-aquamarine {
+  background-color: aquamarine;
 }
