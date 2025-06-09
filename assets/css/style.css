@@ -17,8 +17,12 @@ header {
 }
 
 .middle {
-  height: 500px;
   padding: 20px;
+}
+
+.middle.bg-gray {
+  padding: 20px;
+  background-color: gray;
 }
 
 
@@ -76,10 +80,6 @@ header {
 
 .bg-pink {
   background-color: rgb(255, 52, 177);
-}
-
-.bg-gray {
-  background-color: gray;
 }
 
 .bg-navy {
