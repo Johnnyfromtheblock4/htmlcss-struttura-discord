@@ -30,6 +30,13 @@ header {
   background-color: black;
 }
 
+footer {
+  height: 100px;
+  padding: 20px;
+  background-color: black;
+  margin-top: 1px;
+}
+
 /* CONTENITORI */
 .container {
   max-width: 1200px;
@@ -60,6 +67,14 @@ header {
   display: flex;
 }
 
+.bottom-box {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: greenyellow;
+}
 
 
 /* LAYOUT */
@@ -96,6 +111,12 @@ header {
   padding: 20px;
   text-align: center;
   border: 2px dashed white;
+}
+
+p {
+  border: 2px dashed black;
+  color: black;
+  background-color: salmon;
 }
 
 
